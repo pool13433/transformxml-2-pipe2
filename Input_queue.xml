@@ -7,9 +7,6 @@
 	<!-- server=3 T1,T2,T3-->
 	<waitingLine name="S2" server="3"></waitingLine>
 
-	<!-- server=3 T1,T2,T3-->
-	<waitingLine name="S3" server="3"></waitingLine>
-
 	<!-- P3-->
 	<departure name="Departure 1"></departure>
 	<!-- Line S1 => S2 -->
