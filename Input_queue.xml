@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<queue>
+	<!-- P1-->
+	<!-- server=2 T1,T2-->
+	<waitingLine name="S1" server="2"></waitingLine>
+	<!-- P2-->
+	<!-- server=3 T1,T2,T3-->
+	<waitingLine name="S2" server="3"></waitingLine>
+
+	<!-- server=3 T1,T2,T3-->
+	<waitingLine name="S3" server="3"></waitingLine>
+
+	<!-- P3-->
+	<departure name="Departure 1"></departure>
+	<!-- Line S1 => S2 -->
+	<connection source="S1" target="S2"></connection>
+	<connection source="S2" target="Departure 1"></connection>
+</queue>
